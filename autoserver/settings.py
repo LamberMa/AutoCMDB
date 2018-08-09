@@ -25,7 +25,7 @@ SECRET_KEY = '35lmmhcu(pxe!v-sy#_@5hc8n4&6o3f#i@61xwy8*%=6g&e12b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

@@ -71,6 +71,7 @@ def curd_json(request):
     #     values_list.append(row['q'])
     # values_list = ['id', 'hostname']
 
+    # 可以使用序列化模块进行序列化，当然直接去数据直接取出来字典护着列表，不弄出来queryset就行了。
     # v = models.Server.objects.all()
     # from django.core import serializers
     # serializers可以针对queryset对象进行序列化。
@@ -80,7 +81,7 @@ def curd_json(request):
     server_list = models.Server.objects.values(*values_list)
     # 注意这里要list一下，queryset对象是不可以进行json序列化的
     # 否则会报错Object of type 'QuerySet' is not JSON serializable
-    # 但是如果说取出来的v里面包含datetime对象的话也是不能序列化的，还是会报错
+    # 但是如果说取出来的v里面包含datetime对象的话也是不能序列化的，还是会报同样的上面的错
     # 因此需要对这个json模块进行扩展
 
     class JsonCustomEncoder(json.JSONEncoder):

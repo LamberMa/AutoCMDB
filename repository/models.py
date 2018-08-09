@@ -108,7 +108,7 @@ class Asset(models.Model):
         (4, '下架'),
     )
 
-    device_type_id = models.IntegerField(choices=device_type_choices, default=1)
+    device_type_id = models.IntegerField(choices=device_type_choices, default=1, verbose_name="资产类型")
     device_status_id = models.IntegerField(choices=device_status_choices, default=1)
 
     cabinet_num = models.CharField('机柜号', max_length=30, null=True, blank=True)
@@ -135,7 +135,7 @@ class Server(models.Model):
     服务器信息，关于服务器的信息，有些是一对多关系，比如一台服务器有多个硬盘
     但是有些只有一条属性的，比如主板SN号，系统版本等。直接扔在server信息里就可以了，无需多建一个表
     """
-    # 资产和设备是一对一的关系
+    # 资产和设备是一对一的关系，通过这个字段就可以跨到资产表去拿一些资产信息，比如在哪个机柜什么的。
     asset = models.OneToOneField('Asset', on_delete=models.CASCADE)
     hostname = models.CharField(max_length=128, unique=True)
     sn = models.CharField('SN号', max_length=64, db_index=True)
@@ -201,7 +201,7 @@ class NIC(models.Model):
     netmask = models.CharField(max_length=64)
     ipaddrs = models.CharField('ip地址', max_length=256)
     up = models.BooleanField(default=False)
-    server_obj = models.ForeignKey('Server',related_name='nic', on_delete=models.CASCADE)
+    server_obj = models.ForeignKey('Server', related_name='nic', on_delete=models.CASCADE)
 
     class Meta:
         verbose_name_plural = "网卡表"
