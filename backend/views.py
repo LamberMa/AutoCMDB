@@ -3,100 +3,126 @@ from datetime import datetime, date
 
 from django.shortcuts import render, HttpResponse
 from repository import models
+from backend.page_config.server import table_config as server_table_config
+from backend.page_config.idc import table_config as idc_table_config
+from backend.page_config.asset import table_config as asset_table_config
 
 
-# Create your views here.
+class JsonCustomEncoder(json.JSONEncoder):
+
+    def default(self, value):
+        if isinstance(value, datetime):
+            return value.strftime('%Y-%m-%d %H:%M:%S')
+        elif isinstance(value, date):
+            return value.strftime('%Y-%m-%d')
+        else:
+            return json.JSONEncoder.default(self, value)
+
+
 def curd(request):
-
     return render(request, 'backend/curd.html')
 
 
 def curd_json(request):
-    # 注意这里还是可以跨表的，可以动态的放在用户的cookie里。
-    table_config = [
-        {
-            'q': 'id',
-            'title': 'ID',
-            'text': {
-                'tpl': '{n1}',
-                'kwargs': {'n1': '@id'},
-            }
-        },
-        {
-            'q': 'hostname',
-            'title': '主机名',
-            'text': {
-                'tpl': '{n1}',
-                'kwargs': {'n1': '@hostname'},
-            }
-        },
-        {
-            'q': 'create_at',
-            'title': '创建时间',
-            'text': {
-                'tpl': '{n1}',
-                'kwargs': {'n1': '@create_at'},
-            }
-        },
-        {
-            'q': 'asset__cabinet_num',
-            'title': '机柜号',
-            'text': {
-                'tpl': '{n1}',
-                'kwargs': {'n1': '@asset__cabinet_num'},
-            }
-        },
-        {
-            'q': 'asset__business_unit__name',
-            'title': '业务线名称',
-            'text': {
-                'tpl': '{n1}',
-                'kwargs': {'n1': '@asset__business_unit__name'},
-            }
-        },
-        # 页面标题显示操作，操作为删除，编辑，应该是个a标签，这里的q不能随便写。
-        # 我这可以写一个None，意味着不取，但是values_list要过滤
-        # 因为values_list这个列表里不允许存在None。
-        {
-            'q': None,
-            'title': '操作',
-            'text': {
-                'tpl': '<a href="/backend/del?nid={nid}">删除</a>',
-                'kwargs': {'nid': '@id'},
-            }
-        },
-    ]
-    values_list = [row['q'] for row in table_config if row['q']]
-    # for row in table_config:
-    #     values_list.append(row['q'])
-    # values_list = ['id', 'hostname']
+    if request.method == "DELETE":
+        # 为什么用request.body，因为只有request.get和request.post，其他的一律在body中自己处理
+        # request.body.decode('utf-8')，或者用下面的方法
+        # 删除的时候直接删除id_list就行了。有了批量删除以后，后面的操作就啥用了，也可以留着
+        id_list = json.loads(str(request.body, encoding='utf-8'))
+        return HttpResponse('...')
+    elif request.method == "POST":
+        return HttpResponse('...')
+    elif request.method == 'PUT':
+        # print(request.body)
+        all_list = json.loads(request.body.decode('utf-8'))
+        for row in all_list:
+            nid = row.pop('id')
+            models.Server.objects.filter(id=nid).update(**row)
+        return HttpResponse('...')
+    else:
+        # 注意这里还是可以跨表的，可以动态的放在用户的cookie里。
 
-    # 可以使用序列化模块进行序列化，当然直接去数据直接取出来字典护着列表，不弄出来queryset就行了。
-    # v = models.Server.objects.all()
-    # from django.core import serializers
-    # serializers可以针对queryset对象进行序列化。
-    # data = serializers.serialize('json', v)
+        values_list = [row['q'] for row in server_table_config if row['q']]
+        server_list = models.Server.objects.values(*values_list)
+        search_config = [
+            {'name': 'cabinet_num', 'text': '机柜号', 'search_type': 'input'},
+            {'name': 'device_type_id', 'text': '资产类型', 'search_type': 'select', 'global_name': 'device_type_choices'},
+            {'name': 'device_status_id', 'text': '资产状态', 'search_type': 'select', 'global_name': 'device_status_choices'},
+        ]
 
-    # server_list = models.Server.objects.values('id', 'hostname', 'create_at')
-    server_list = models.Server.objects.values(*values_list)
-    # 注意这里要list一下，queryset对象是不可以进行json序列化的
-    # 否则会报错Object of type 'QuerySet' is not JSON serializable
-    # 但是如果说取出来的v里面包含datetime对象的话也是不能序列化的，还是会报同样的上面的错
-    # 因此需要对这个json模块进行扩展
+        ret = {
+            'server_list': list(server_list),
+            'table_config': server_table_config,
+            'search_config': search_config,
+            # 注意这里是不应该有这个global信息的，只是目前保证数据的显示而已。因为server表中名没有什么choices
+            'global_dict': {
+                'device_type_choices': models.Asset.device_type_choices,
+                'device_status_choices': models.Asset.device_status_choices,
+            },
+        }
 
-    class JsonCustomEncoder(json.JSONEncoder):
+        return HttpResponse(json.dumps(ret, cls=JsonCustomEncoder))
 
-        def default(self, value):
-            if isinstance(value, datetime):
-                return value.strftime('%Y-%m-%d %H:%M:%S')
-            elif isinstance(value, date):
-                return value.strftime('%Y-%m-%d')
-            else:
-                return json.JSONEncoder.default(self, value)
+
+def asset(request):
+    return render(request, 'backend/asset.html')
+
+
+def asset_json(request):
+    if request.method == "DELETE":
+        pass
+    elif request.method == "GET":
+        pass
+    elif request.method == 'PUT':
+        # print(request.body)
+        all_list = json.loads(request.body.decode('utf-8'))
+        print(all_list)
+        # for row in all_list:
+        #     nid = row.pop('id')
+        #     models.Asset.objects.filter(id=nid).update(**row)
+        return HttpResponse('...')
+
+    values_list = [row['q'] for row in asset_table_config if row['q']]
+    asset_list = models.Asset.objects.values(*values_list)
+
     ret = {
-        'server_list': list(server_list),
-        'table_config': table_config,
+        'server_list': list(asset_list),
+        'table_config': asset_table_config,
+        # 如果让前端拿到id对应的状态（类型）值呢，其实就是把所有的值把过去让前端去遍历
+        # 然后匹配的填上值就行了，因为这些操作的处理逻辑都是一致的，因此统一扔到一个global_dict中
+        # 拿过来的这些都是元组，元组经过json序列化以后都是列表了。
+        'global_dict': {
+            'device_type_choices': models.Asset.device_type_choices,
+            'device_status_choices': models.Asset.device_status_choices,
+            'idc_choices': list(models.IDC.objects.values_list('id', 'name')),
+        },
     }
-    # 这里可以加一个参数cls，这样在每一个字段序列化的时候都会调用这个类的特殊方法
-    # 默认这个cls不填的话就是json.JSONEncoder
+
     return HttpResponse(json.dumps(ret, cls=JsonCustomEncoder))
+
+
+def idc(request):
+    return render(request, 'backend/idc.html')
+
+
+def idc_json(request):
+    if request.method == "DELETE":
+        id_list = json.loads(request.body.decode('utf-8'))
+        print(id_list)
+        return HttpResponse('...')
+    elif request.method == "PUT":
+        all_list = json.loads(request.body.decode('utf-8'))
+        print(all_list)
+        return HttpResponse('...')
+    elif request.method == 'GET':
+        values_list = [row['q'] for row in idc_table_config if row['q']]
+        idc_list = models.IDC.objects.values(*values_list)
+
+        ret = {
+            'server_list': list(idc_list),
+            'table_config': idc_table_config,
+            'global_dict': {
+            },
+        }
+
+        return HttpResponse(json.dumps(ret, cls=JsonCustomEncoder))

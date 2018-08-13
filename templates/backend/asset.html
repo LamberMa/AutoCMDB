@@ -6,9 +6,8 @@
     <link rel="stylesheet" href="/static/css/bootstrap.css">
 </head>
 <body>
+
 <div style="width: 700px;margin: 0 auto;">
-    <h2>服务器列表</h2>
-    {% include 'backend/search.html' %}
     {% include 'backend/common_tpl.html' %}
 </div>
 
@@ -16,7 +15,7 @@
 <script src="/static/js/bootstrap.js"></script>
 <script src="/static/js/curd.js"></script>
 <script>
-    $.curd('/backend/curd_json.html');
+    $.curd('/backend/asset_json.html')
 </script>
 </body>
 </html>
