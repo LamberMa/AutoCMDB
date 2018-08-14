@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="i1"></div>
+<script src="/static/js/jquery-3.3.1.js"></script>
+<script src="/static/js/Highcharts-6.1.1/code/highcharts.js"></script>
+<script>
+    Highcharts.setOptions({
+        global: {
+            // 针对时间，这里不使用utc时间使用东八区时间
+            useUTC: false
+        }
+    });
+
+    var chart = new Highcharts.Chart('i1', {
+        title: {
+            text: '大标题',
+            // x表示移动的位置，可以左移右移。
+            x: 0
+        },
+        subtitle: {
+            text: '小标题',
+            x: 0
+        },
+        chart: {
+            // 事件
+            events: {
+                load: function (e) {
+                    // 图像加载的时候执行的函数
+                    // 就可以放在这里执行操作，比如定时操作。
+                }
+            }
+        },
+        credits: {
+            // 这里其实是一个打广告的小跳转，默认不写的话用的就是highcharts官方的
+            // 我们这里可以自己定制
+            enable: true,
+            position: {
+                align: 'right',
+                verticalAligin: 'bottom'
+            },
+            text: '雨下不停',
+            href: 'http://dcgamer.top'
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 1
+        },
+        xAxis: {
+            type: 'datetime',
+            labels: {
+                formatter: function () {
+                    return Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.value)
+                },
+                rotation: 30
+            }
+        },
+        yAxis:{
+            titie: {
+                text: '数值'
+            }
+        },
+        // 设置鼠标放置到坐标点的时候显示的内容，这个是可以自己进行定制的。
+        tooltip: {
+            valueSuffix: '个',
+            xDataFormat: "%Y-%m-%d %H:%M:%S",
+            pointFormatter: function (e) {
+                /**
+                 * 这里就是定制鼠标挪上去以后显示的小框的模板。this.series.color就是当前这条数据线的颜色
+                 * 所以你把鼠标放上去的时候弹出来的框的内部文字颜色是跟着个这个线的颜色走的。这个实心的小圆点也是可以定制的
+                 * this.series.name就是当前这是哪一条数据线。同时对当前y轴的数据加粗一下，当然这个默认有一套规则
+                 * 这里只不过是允许自己定制，只不过自己定制的时候不要忘了useHTML
+                 */
+                var tpl = '<span style="color:' + this.series.color + '">●</span>' + this.series.name + ': <b>' + this.y + '</b><br/>';
+                return tpl;
+            },
+            useHTML: true
+        },
+        plotOptions: {
+            // series 表示数据
+            series: {
+                cursor: 'pointer',
+                events: {
+                    click: function (event) {
+                        // 点击某个坐标点的时候要干点啥，x轴的是索引
+                        console.log(this.name, event.point.x, event.point.y)
+                    }
+                }
+            }
+        },
+        series: [
+            // 这里表示一系列的值
+            {
+                name: '东京',
+                data: [
+                    [1501689804077.258, 8.0],
+                    [1501689814177.258, 6.9],
+                    [1501689824277.258, 16.9],
+                    [1501689834377.258, 11.9]
+                ]
+            },
+            {
+                name: '洛杉矶',
+                data: [
+                    [1501689804077.258, 18.0],
+                    [1501689814177.258, 16.9],
+                    [1501689824277.258, 26.9],
+                    [1501689834377.258, 9.9]
+                ]
+            }
+        ]
+    });
+
+
+    // 动态的添加数据点，对应的添加data的时候也是一组一组的添加。
+    chart.series[0].addPoint([1501689834977.258, 29.9]);
+
+    // 比如setinterval写个定时器，偷偷去后台新家。
+
+    // highchart只是画图的，highstock可以横向的取时间范围。
+</script>
+</body>
+</html>

@@ -2,6 +2,8 @@ import json
 from datetime import datetime, date
 
 from django.shortcuts import render, HttpResponse
+from django.db.models import Q
+
 from repository import models
 from backend.page_config.server import table_config as server_table_config
 from backend.page_config.idc import table_config as idc_table_config
@@ -17,6 +19,22 @@ class JsonCustomEncoder(json.JSONEncoder):
             return value.strftime('%Y-%m-%d')
         else:
             return json.JSONEncoder.default(self, value)
+
+
+def get_data_list(request, table_config, model_cls):
+    con = Q()
+    condition = request.GET.get('condition')
+    condition_dict = json.loads(condition)
+    print(condition_dict)
+    for name, values in condition_dict.items():
+        ele = Q()
+        ele.connector = 'OR'
+        for item in values:
+            ele.children.append((name, item))
+        con.add(ele, 'AND')
+    values_list = [row['q'] for row in table_config if row['q']]
+    server_list = model_cls.objects.filter(con).values(*values_list)
+    return server_list
 
 
 def curd(request):
@@ -42,12 +60,15 @@ def curd_json(request):
     else:
         # 注意这里还是可以跨表的，可以动态的放在用户的cookie里。
 
-        values_list = [row['q'] for row in server_table_config if row['q']]
-        server_list = models.Server.objects.values(*values_list)
+        server_list = get_data_list(request, server_table_config, models.Server)
+
         search_config = [
-            {'name': 'cabinet_num', 'text': '机柜号', 'search_type': 'input'},
-            {'name': 'device_type_id', 'text': '资产类型', 'search_type': 'select', 'global_name': 'device_type_choices'},
-            {'name': 'device_status_id', 'text': '资产状态', 'search_type': 'select', 'global_name': 'device_status_choices'},
+            # 使用xxx__contains做模糊匹配，orm的用法再回顾一下。
+            {'name': 'hostname__contanins', 'text': '主机名', 'search_type': 'input'},
+            {'name': 'sn__contains', 'text': 'SN号', 'search_type': 'input'},
+            # {'name': 'cabinet_num', 'text': '机柜号', 'search_type': 'input'},
+            # {'name': 'device_type_id', 'text': '资产类型', 'search_type': 'select', 'global_name': 'device_type_choices'},
+            # {'name': 'device_status_id', 'text': '资产状态', 'search_type': 'select', 'global_name': 'device_status_choices'},
         ]
 
         ret = {
@@ -81,13 +102,19 @@ def asset_json(request):
         #     nid = row.pop('id')
         #     models.Asset.objects.filter(id=nid).update(**row)
         return HttpResponse('...')
+    asset_list = get_data_list(request, asset_table_config, models.Asset)
 
-    values_list = [row['q'] for row in asset_table_config if row['q']]
-    asset_list = models.Asset.objects.values(*values_list)
+    search_config = [
+        # 使用xxx__contains做模糊匹配，orm的用法再回顾一下。
+        {'name': 'cabinet_num', 'text': '机柜号', 'search_type': 'input'},
+        {'name': 'device_type_id', 'text': '资产类型', 'search_type': 'select', 'global_name': 'device_type_choices'},
+        {'name': 'device_status_id', 'text': '资产状态', 'search_type': 'select', 'global_name': 'device_status_choices'},
+    ]
 
     ret = {
         'server_list': list(asset_list),
         'table_config': asset_table_config,
+        'search_config': search_config,
         # 如果让前端拿到id对应的状态（类型）值呢，其实就是把所有的值把过去让前端去遍历
         # 然后匹配的填上值就行了，因为这些操作的处理逻辑都是一致的，因此统一扔到一个global_dict中
         # 拿过来的这些都是元组，元组经过json序列化以后都是列表了。
@@ -126,3 +153,7 @@ def idc_json(request):
         }
 
         return HttpResponse(json.dumps(ret, cls=JsonCustomEncoder))
+
+
+def chart(request):
+    return render(request, 'backend/chart.html')

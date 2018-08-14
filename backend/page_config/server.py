@@ -48,6 +48,17 @@ table_config = [
         }
     },
     {
+        'q': 'sn',
+        'title': 'SN号',
+        'display': True,
+        'text': {
+            'tpl': '{n1}',
+            'kwargs': {'n1': '@sn'},
+        },
+        'attrs': {
+        }
+    },
+    {
         'q': 'create_at',
         'title': '创建时间',
         'display': True,

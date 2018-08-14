@@ -9,4 +9,5 @@ urlpatterns = [
     re_path('^asset_json.html$', views.asset_json),
     re_path('^idc.html$', views.idc),
     re_path('^idc_json.html$', views.idc_json),
+    re_path('^chart.html$', views.chart),
 ]

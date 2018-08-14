@@ -55,3 +55,11 @@ http://www.cnblogs.com/wupeiqi/articles/5246483.html
 2-两个公用模板，一个common_tpl，一个，js插件
 注意html规则，在引用的时候要调用一个api的地址。
 3-配置规则。
+
+
+Django rest framework
+www.cnblogs.com/wupeiqi/articles/7281134.html
+
+
+项目总结：
+

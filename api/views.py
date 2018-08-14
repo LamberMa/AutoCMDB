@@ -2,8 +2,11 @@ import json
 import hashlib
 import time
 from django.shortcuts import render, HttpResponse
+from django.http import JsonResponse
 from repository import models
 from django.conf import settings
+from rest_framework import viewsets
+
 
 api_key_record = {
     # "1b96b89695f52ec9de8292a5a7945e38|1501472467.4977243":1501472477.4977243
@@ -183,3 +186,50 @@ def asset(request):
             # 今天作业：(基本信息，硬盘，内存)
 
     return HttpResponse('...')
+
+
+# 设计restful风格的，get表示获取服务器列表，post表示创建服务器
+# put表示修改，delete表示删除。
+# /server/1.html DELETE 删除单条信息，这样路由
+# servers/(\d+).html，然后在视图函数那里直接获取对应的数值就可以了。
+def server(request):
+    if request.method == 'GET':
+        v = models.Server.objects.values('id', 'hostname')
+        # 会帮你自动dump一下。Jsonresponse规定，你给用户返回的时候
+        # 都要返回一个字典，否则会报错。in order to allow non-dict objects to be
+        # serialized set the safe parameter to False
+        # 当然能不能非要返回一个列表，也是可以的。
+        # return JsonResponse(list(v1), safe=False)
+        return JsonResponse({'k1': list(v)})
+    elif request.method == "POST":
+        # request.POST.get('xx')
+        # models.xx.objects.create.xxx
+        return JsonResponse(status=201, safe=False)
+
+
+from rest_framework import serializers
+
+class ServerSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = models.Server
+        # 表示只能操作这三个字段，不仅不能操作，而且你还看不见。
+        fields = ('id', 'hostname', 'sn')
+        # 除xx以外
+        # exclude = ()
+        # 大于等于0，小于等于10.比如表中可以跨表。0表示只查自己的表
+        # 1表示下一层跨表也会拿到。
+        depth = 1
+
+# 直接访问的话会看到一个web页面http://127.0.0.1:8000/api/servers/
+# 但是我们要这样一个web页面其实没有什么卵用，我们需要的是json
+# http://127.0.0.1:8000/api/servers/?format=json
+# 这样就能拿到一个json的数据了。
+# http://127.0.0.1:8000/api/servers/1，第一个数据
+# 生产中一般不会用这种东西。当在生产环境中，涉及到更多联表的时候这里就不是那么容易去完成了。
+# 可以利用这个来快速搭建一个可以提供数据的接口，不过过于简单定制型不强。
+class ServerViewSet(viewsets.ModelViewSet):
+    # 这个名字不能改，就叫queryset，表示要取哪些值，serializer_class类似做验证和数据库操作
+    queryset = models.Server.objects.all().order_by('-id')
+    serializer_class = ServerSerializer
+
+

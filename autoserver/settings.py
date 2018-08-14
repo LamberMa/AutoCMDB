@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'api',
     'backend',
     'repository',
+    'rest_framework',
+    'restapi',
 ]
 
 MIDDLEWARE = [

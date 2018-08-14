@@ -1,6 +1,7 @@
 (function (jq) {
 
     var GLOBAL_DICT = {};
+    var CREATE_SEARCH_CONDITION = true;
 
     // 为字符串创建可以像Python那样的字符串的格式化方法
     String.prototype.format = function (args) {
@@ -9,10 +10,30 @@
         });
     };
 
+    function getSearchCondition() {
+        var conditon = {};
+        $('.search-list').find('input[type=text],select').each(function () {
+            // $(this)，这个要不就是input框，要你就是select，获取所有搜索条件
+            var name = $(this).attr('name');
+            var value = $(this).val();
+            console.log(name, value);
+            if (conditon[name]) {
+                conditon[name].push(value)
+            } else {
+                conditon[name] = [value]
+            }
+        });
+        return conditon;
+    }
+
     function initial(url) {
+        // 执行一个函数，获取当前搜索条件，没有条件的时候拿到的是一个空对象
+        var searchCondition = getSearchCondition();
+        console.log(searchCondition);
         $.ajax({
             url: url,
             type: 'GET',
+            data: {'condition': JSON.stringify(searchCondition)},
             dataType: 'JSON',
             success: function (arg) {
                 /*
@@ -32,7 +53,8 @@
 
     function initSearch(search_config) {
         // 有可能有的人没有设置，没有设置的时候其实就是一个undefined
-        if (search_config) {
+        if (search_config && CREATE_SEARCH_CONDITION) {
+            CREATE_SEARCH_CONDITION = false;
             // 找到搜索框的ul的位置，在里面动态添加li
             $.each(search_config, function (k, v) {
                 var li = document.createElement('li');
@@ -47,14 +69,15 @@
                 $('.searchArea').find('ul').append(li)
             });
 
-            // 初始化搜索默认条件
-            $('.search-item .searchDefault').text(search_config[0].text);
+            // 初始化搜索默认条件，直接设置defaultcondition的值就可以了。
+            var defaultcondition = search_config[0];
+            $('.search-item .searchDefault').text(defaultcondition.text);
             // 替换搜索框的标签，如果search_type为select就换成下拉框
-            if (search_config[0].search_type === 'select') {
+            if (defaultcondition.search_type === 'select') {
                 var $sel = $('<select>');
                 $sel.addClass('form-control');
-                $sel.attr('name', search_config[0].name);
-                $.each(GLOBAL_DICT[search_config[0].global_name], function (k, v) {
+                $sel.attr('name', defaultcondition.name);
+                $.each(GLOBAL_DICT[defaultcondition.global_name], function (k, v) {
                     var option = document.createElement('option');
                     $(option).text(v[1]);
                     $(option).val(v[0]);
@@ -413,7 +436,7 @@
             });
 
             // 搜索框选择不同的类型的时候对应的类型也要变，一开始的时候是没有li的
-            $('.searchArea').find('ul').on('click', 'li', function () {
+            $('.search-list').on('click', 'li', function () {
                 // 点击li执行函数
                 var li_text = $(this).text();
                 var search_type = $(this).attr('search_type');
@@ -421,7 +444,7 @@
                 var global_name = $(this).attr('global_name');
 
                 // 替换显示的文本
-                $('#searchDefault').text(li_text);
+                $(this).parent().prev().children('.searchDefault').text(li_text);
 
                 // 替换搜索框的标签，如果search_type为select就换成下拉框
                 if (search_type === 'select') {
@@ -441,14 +464,11 @@
                     var $inp = $('<input>');
                     $inp.addClass('form-control');
                     $inp.attr('name', name);
+                    $inp.prop('type', 'text');
                     $(this).parent().parent().next().remove();
                     $(this).parent().parent().after($inp);
                 }
 
-                /**
-                 * 获取input框，或者select框，获取name和value
-                 * 通过ajax提交到后台。
-                 * */
             });
 
             $('.search-list').on('click', '.add-search-condition', function () {
@@ -468,6 +488,14 @@
                     $(this).parent().parent().remove();
                 }
 
+            })
+
+            $('#doSearch').click(function () {
+                /**
+                 * 获取input框，或者select框，获取name和value
+                 * 通过ajax提交到后台。
+                 * */
+                initial(url);
             })
         }
     })
