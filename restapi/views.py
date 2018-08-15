@@ -38,8 +38,16 @@ class ServerView(APIView):
         # request._request.body去取数据。request.data相当于直接拿到数据变成字典类型了。
         # 增加数据无非就是调用model模型添加数据，在这里完全可以直接添加
         # 不过restful中还支持一种写法
-        # data = JSONParser().parse(request)
-        pass
+        data = JSONParser().parse(request)
+        # 提交instance的时候提交的是一个对象不用验证，当提交的是一个data的时候就要进行form组件验证了。
+        serializer = myserializers.MySer(data=data)
+        if serializer.is_valid():
+            # serialzer.data 所有的数据
+            # serialzer.error
+            # serialzer.validated_data 验证成功的数据
+            # 如果有instance，执行update方法，否则执行create方法
+            serializer.save()
+        return HttpResponse('...')
 
 
 class ServerDetail(APIView):

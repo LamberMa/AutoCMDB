@@ -2,865 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a0069f8-dc47-48de-9c35-2868c19e2735" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/restapi/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restapi/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restfulAPI.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/css/highcharts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/css/highcharts.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/css/themes/dark-unica.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/css/themes/grid-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/css/themes/sand-signika.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/error.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/masters/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/mixins/ajax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/mixins/centered-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/mixins/derived-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/mixins/draw-point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/mixins/on-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/mixins/polygon.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/mixins/tree-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/a11y-i18n.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/histogram.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/keyboard-navigation.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/screen-reader.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Column.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Math.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/SVGRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Scatter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-3d/VMLRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-gantt/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-gantt/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/ColorAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/ColorSeriesMixin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/GeoJSON.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/HeatmapIntro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/HeatmapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/IntroMapModule.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/Map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/MapAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/MapBubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/MapLineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/MapNavigation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/MapPointSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/MapPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-map/MapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/AreaRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/AreaSplineRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/BoxPlotSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/BubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/ColumnRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/ErrorBarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/GaugeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/Pane.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/Polar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/PolygonSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/RadialAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts-more/WaterfallSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/AreaSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/AreaSplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/BarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/CandlestickSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Color.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/ColumnSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/DataGrouping.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/DataLabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/DateTimeAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Dynamics.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/FlagsSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Interaction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Legend.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/LogarithmicAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/MSPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Navigator.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/OHLCSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/OrdinalAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/PieSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/PlotBandSeries.experimental.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/PlotLineOrBand.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Pointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/RangeSelector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Responsive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/ScatterSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/ScrollablePlotArea.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Scrollbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/SplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Stacking.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/StockChart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/SvgRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Tick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Time.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/TouchPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/parts/Utilities.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/supplemental.docs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/es-modules/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts-3d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts-3d.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts-more.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts-more.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/error.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/masters/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/mixins/ajax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/mixins/centered-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/mixins/derived-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/mixins/draw-point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/mixins/on-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/mixins/polygon.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/mixins/tree-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/a11y-i18n.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/histogram.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/keyboard-navigation.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/screen-reader.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Column.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Math.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/SVGRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Scatter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-3d/VMLRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-gantt/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-gantt/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/ColorAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/ColorSeriesMixin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/GeoJSON.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/HeatmapIntro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/HeatmapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/IntroMapModule.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/Map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/MapAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/MapBubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/MapLineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/MapNavigation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/MapPointSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/MapPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-map/MapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/AreaRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/AreaSplineRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/BoxPlotSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/BubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/ColumnRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/ErrorBarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/GaugeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/Pane.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/Polar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/PolygonSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/RadialAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts-more/WaterfallSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/AreaSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/AreaSplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/BarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/CandlestickSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Color.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/ColumnSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/DataGrouping.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/DataLabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/DateTimeAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Dynamics.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/FlagsSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Interaction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Legend.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/LogarithmicAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/MSPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Navigator.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/OHLCSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/OrdinalAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/PieSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/PlotBandSeries.experimental.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/PlotLineOrBand.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Pointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/RangeSelector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Responsive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/ScatterSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/ScrollablePlotArea.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Scrollbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/SplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Stacking.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/StockChart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/SvgRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Tick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Time.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/TouchPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/parts/Utilities.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/supplemental.docs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/es-modules/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts-3d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts-3d.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts-more.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts-more.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/accessibility.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/accessibility.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/annotations.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/annotations.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/boost-canvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/boost-canvas.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/boost.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/boost.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/broken-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/broken-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/bullet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/bullet.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/drag-panes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/drag-panes.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/drilldown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/drilldown.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/export-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/export-data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/funnel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/funnel.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/gantt.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/grid-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/heatmap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/heatmap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/histogram-bellcurve.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/histogram-bellcurve.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/item-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/item-series.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/no-data-to-display.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/no-data-to-display.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/offline-exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/offline-exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/oldie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/oldie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/overlapping-datalabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/overlapping-datalabels.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/parallel-coordinates.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/parallel-coordinates.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/pareto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/pareto.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/pattern-fill.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/pattern-fill.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/sankey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/sankey.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/series-label.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/series-label.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/solid-gauge.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/solid-gauge.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/static-scale.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/static-scale.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/stock.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/stock.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/streamgraph.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/streamgraph.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/sunburst.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/sunburst.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/tilemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/tilemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/treemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/treemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/variable-pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/variable-pie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/variwide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/variwide.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/vector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/vector.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/windbarb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/windbarb.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/wordcloud.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/wordcloud.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/xrange.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/xrange.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/avocado.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-blue.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-green.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-unica.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/gray.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/grid-light.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/grid.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/sand-signika.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/skies.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/sunset.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/js/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/canvg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/canvg.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/jspdf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/jspdf.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/rgbcolor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/rgbcolor.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/svg2pdf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/lib/svg2pdf.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/accessibility.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/accessibility.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/annotations.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/annotations.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/boost-canvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/boost-canvas.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/boost.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/boost.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/broken-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/broken-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/bullet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/bullet.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/drag-panes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/drag-panes.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/drilldown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/drilldown.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/export-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/export-data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/funnel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/funnel.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/gantt.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/grid-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/heatmap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/heatmap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/histogram-bellcurve.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/histogram-bellcurve.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/item-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/item-series.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/no-data-to-display.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/no-data-to-display.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/offline-exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/offline-exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/oldie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/oldie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/overlapping-datalabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/overlapping-datalabels.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/parallel-coordinates.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/parallel-coordinates.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/pareto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/pareto.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/pattern-fill.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/pattern-fill.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/sankey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/sankey.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/series-label.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/series-label.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/solid-gauge.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/solid-gauge.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/static-scale.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/static-scale.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/stock.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/stock.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/streamgraph.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/streamgraph.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/sunburst.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/sunburst.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/tilemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/tilemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/treemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/treemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/variable-pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/variable-pie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/variwide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/variwide.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/vector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/vector.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/windbarb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/windbarb.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/wordcloud.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/wordcloud.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/xrange.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/xrange.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/avocado.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-blue.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-green.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-unica.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/gray.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/grid-light.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/grid.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/sand-signika.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/skies.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/sunset.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/code/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/3d-column-interactive/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/3d-column-null-values/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/3d-column-stacking-grouping/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/3d-pie-donut/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/3d-pie/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/3d-scatter-draggable/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/annotations/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/area-basic/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/area-inverted/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/area-missing/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/area-negative/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/area-stacked-percent/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/area-stacked/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/arearange-line/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/arearange/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/areaspline/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/bar-basic/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/bar-negative-stack/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/bar-stacked/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/bellcurve/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/box-plot/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/bubble-3d/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/bubble/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/bullet-graph/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/chart-update/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-basic/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-drilldown/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-negative/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-parsed/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-placement/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-rotated-labels/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-stacked-and-grouped/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-stacked-percent/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/column-stacked/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/columnrange/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/combo-dual-axes/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/combo-meteogram/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/combo-multi-axes/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/combo-regression/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/combo-timeline/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/combo/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/dynamic-click-to-add/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/dynamic-master-detail/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/dynamic-update/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/error-bar/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/funnel/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/gauge-activity/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/gauge-clock/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/gauge-dual/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/gauge-solid/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/gauge-speedometer/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/gauge-vu-meter/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/heatmap-canvas/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/heatmap/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/histogram/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/honeycomb-usa/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/item-series/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/line-ajax/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/line-basic/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/line-boost/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/line-labels/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/line-log-axis/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/line-time-series/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/live-data/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/parallel-coordinates/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pareto/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pie-basic/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pie-donut/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pie-drilldown/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pie-gradient/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pie-legend/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pie-monochrome/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pie-semi-circle/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/polar-spider/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/polar-wind-rose/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/polar/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/polygon/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/pyramid/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/renderer/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/responsive/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/sankey-diagram/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/scatter-boost/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/scatter/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/sparkline/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/spline-inverted/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/spline-irregular-time/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/spline-plot-bands/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/spline-symbols/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/streamgraph/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/styled-mode-column/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/styled-mode-pie/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/sunburst/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/synchronized-charts/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/treemap-coloraxis/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/treemap-large-dataset/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/treemap-with-levels/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/variable-radius-pie/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/variwide/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/vector-plot/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/waterfall/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/windbarb-series/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/wordcloud/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/examples/x-range/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/gfx/vml-radial-gradient.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/arrow.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/circle.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/cursor.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/earth.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/feature.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/fibonacci.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/flag-circlepin.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/flag-diamondpin.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/flag-flag.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/flag-squarepin.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/flag.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/line.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/rect.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/reset.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/save.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/search.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/skies.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/snow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/sun.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/text.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/graphics/tunnel.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/Highcharts-6.1.1/index.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/backend/chart.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" afterPath="$PROJECT_DIR$/api/urls.py" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" afterPath="$PROJECT_DIR$/api/views.py" />
-      <change beforePath="$PROJECT_DIR$/autoserver/settings.py" afterPath="$PROJECT_DIR$/autoserver/settings.py" />
-      <change beforePath="$PROJECT_DIR$/autoserver/urls.py" afterPath="$PROJECT_DIR$/autoserver/urls.py" />
-      <change beforePath="$PROJECT_DIR$/backend/page_config/server.py" afterPath="$PROJECT_DIR$/backend/page_config/server.py" />
-      <change beforePath="$PROJECT_DIR$/backend/urls.py" afterPath="$PROJECT_DIR$/backend/urls.py" />
-      <change beforePath="$PROJECT_DIR$/backend/views.py" afterPath="$PROJECT_DIR$/backend/views.py" />
-      <change beforePath="$PROJECT_DIR$/static/js/curd.js" afterPath="$PROJECT_DIR$/static/js/curd.js" />
-      <change beforePath="$PROJECT_DIR$/templates/backend/asset.html" afterPath="$PROJECT_DIR$/templates/backend/asset.html" />
+      <change beforePath="$PROJECT_DIR$/restapi/views.py" afterPath="$PROJECT_DIR$/restapi/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -906,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restapi/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+            <state relative-caret-position="213">
+              <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -918,11 +61,89 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/python/cmdb/lib/python3.6/site-packages/rest_framework/request.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2181">
-              <caret line="161" column="8" lean-forward="true" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="31" />
+            <state relative-caret-position="288">
+              <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+              <folding>
+                <element signature="e#428#703#0" expanded="false" />
+                <element signature="e#1340#3203#0" expanded="false" />
+                <element signature="e#4803#4845#0" expanded="false" />
+                <element signature="e#4875#5570#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conn_lhdc.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conn_lhdc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asset.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/backend/asset.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_tpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/backend/common_tpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="1046">
+                <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoserver/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="121" column="12" lean-forward="false" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restapi/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repository/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -931,21 +152,9 @@
       <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restapi/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="147">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/restapi/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#164#201#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1013,11 +222,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="632" />
-    <option name="y" value="42" />
-    <option name="width" value="1050" />
-    <option name="height" value="712" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="56" />
+    <option name="y" value="59" />
+    <option name="width" value="1218" />
+    <option name="height" value="711" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1048,7 +257,45 @@
             <path>
               <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoserver" type="462c0819:PsiDirectoryNode" />
-              <item name="restapi" type="462c0819:PsiDirectoryNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="page_config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1174,16 +421,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="42" width="1050" height="712" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2627841" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38215488" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38215488" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3855219" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20337301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26420453" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16558966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1212,13 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/service/disk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoserver/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2480">
@@ -1378,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conn_lhdc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1403,22 +636,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repository/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="69" column="48" lean-forward="false" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/page_config/asset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backend/common_tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/backend/curd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1470,29 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/backend/chart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="122" column="0" lean-forward="true" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#1704#2351#0#HTML" expanded="false" />
-            <element signature="e#2374#2721#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoserver/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1502,25 +692,9 @@
         <state relative-caret-position="-347">
           <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
             <element signature="e#353#7574#0" expanded="false" />
             <element signature="e#7745#8284#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#428#703#0" expanded="false" />
-            <element signature="e#763#1240#0" expanded="false" />
-            <element signature="e#1340#3203#0" expanded="false" />
-            <element signature="e#3306#4778#0" expanded="false" />
-            <element signature="e#4803#4845#0" expanded="false" />
-            <element signature="e#4875#5570#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1538,11 +712,11 @@
         <state relative-caret-position="326">
           <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1583,16 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/backend/asset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restfulAPI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1604,23 +768,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="274">
-            <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autoserver/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#634#666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1637,27 +790,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restapi/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="147">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/python/cmdb/lib/python3.6/site-packages/rest_framework/request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2181">
-          <caret line="161" column="8" lean-forward="true" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="31" />
+        <state relative-caret-position="-1901">
+          <caret line="161" column="8" lean-forward="false" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoserver/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="121" column="12" lean-forward="false" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1046">
+            <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/page_config/asset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restapi/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="40" column="44" lean-forward="false" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        <state relative-caret-position="213">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/asset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/common_tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+          <folding>
+            <element signature="e#428#703#0" expanded="false" />
+            <element signature="e#1340#3203#0" expanded="false" />
+            <element signature="e#4803#4845#0" expanded="false" />
+            <element signature="e#4875#5570#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conn_lhdc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
