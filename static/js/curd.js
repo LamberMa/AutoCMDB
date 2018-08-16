@@ -2,6 +2,7 @@
 
     var GLOBAL_DICT = {};
     var CREATE_SEARCH_CONDITION = true;
+    var $tbhead = $('#tbhead');
 
     // 为字符串创建可以像Python那样的字符串的格式化方法
     String.prototype.format = function (args) {
@@ -97,7 +98,7 @@
 
     function initTableHeader(table_config) {
         // 为了保证刷新，所以这里每一次重新请求的时候先清空重新填写数据
-        $('#tbhead').empty();
+        $tbhead.empty();
         var $tr = $('<tr>');
         $.each(table_config, function (k, v) {
             if (v.display) {
@@ -106,7 +107,7 @@
                 $tr.append(tag);
             }
         });
-        $('#tbhead').append($tr);
+        $tbhead.append($tr);
     }
 
     function initTableBody(server_list, table_config) {
